@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CardsSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import CardsSDK
+import Foundation
+import ModelSDK
+import PassKit
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol CardsSdk {
+  func configure(accessToken: Swift.String, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback)
+  func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback)
+  func getWalletStatus() -> Swift.Bool
+  func getCardWalletStatus(card: ModelSDK.Card) -> CardsSDK.CSDKWalletStatus
+  func addCardToWallet(card: ModelSDK.Card, userDisplayName: Swift.String, completion: @escaping (Swift.Result<CardsSDK.CSDKWalletStatus, CardsSDK.CSDKWalletError>) -> Swift.Void)
+  func activateCardInWallet(card: ModelSDK.Card)
+  func removeCardFromWallet(card: ModelSDK.Card)
+  func showCardDetails(card: ModelSDK.Card, webView: WebKit.WKWebView, jwts: CardsSDK.JWTs)
+  func getPassEntries(userDisplayName: Swift.String, completion: @escaping (Swift.Result<[PassKit.PKIssuerProvisioningExtensionPassEntry], any Swift.Error>) -> Swift.Void)
+  func getPaymentPassRequest(identifier: Swift.String, configuration: PassKit.PKAddPaymentPassRequestConfiguration, certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
+  func getCards(completion: @escaping ((Swift.Result<[ModelSDK.Card], any Swift.Error>) -> Swift.Void))
+  func getCardById(uuid: Swift.String, completion: @escaping ((Swift.Result<ModelSDK.Card, any Swift.Error>) -> Swift.Void))
+  func getCardBalances(uuid: Swift.String, completion: @escaping ((Swift.Result<[ModelSDK.CardBalances], any Swift.Error>) -> Swift.Void))
+  func logout()
+}
+public enum CSDKWalletError : Swift.Error {
+  case invalidPassData
+  case unsupportedPassVersion
+  case invalidPassSignature
+  case notEntitled
+  case unknown
+  public static func == (a: CardsSDK.CSDKWalletError, b: CardsSDK.CSDKWalletError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension CardsSDK.CSDKWalletError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol CSDKTokenRefreshCallback {
+  func refreshJWTs(completion: @escaping (CardsSDK.JWTs) -> Swift.Void)
+}
+public struct JWTs {
+  public var accessToken: Swift.String
+  public var idToken: Swift.String
+  public init(accessToken: Swift.String = "", idToken: Swift.String = "")
+}
+public enum CSDKWalletStatus {
+  case unavailable
+  case notAdded
+  case added
+  case notActivated
+  case active
+  case failure
+  public static func == (a: CardsSDK.CSDKWalletStatus, b: CardsSDK.CSDKWalletStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class CardsSdkProvider {
+  public static let shared: any CardsSDK.CardsSdk
+  @objc deinit
+}
+extension CardsSDK.CSDKWalletError : Swift.Equatable {}
+extension CardsSDK.CSDKWalletError : Swift.Hashable {}
+extension CardsSDK.CSDKWalletStatus : Swift.Equatable {}
+extension CardsSDK.CSDKWalletStatus : Swift.Hashable {}

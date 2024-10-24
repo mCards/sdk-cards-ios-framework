@@ -1,0 +1,6 @@
+framework module CardsSDK {
+  umbrella header "CardsSDK.h"
+
+  export *
+  module * { export * }
+}
