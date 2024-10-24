@@ -11,9 +11,12 @@ The mCards iOS Cards SDK provides the following functionality:
 4. Diaplay an mCard's details
 
 # Importing
-The SDK can be imported via SPM (Swift Package Manager).
+The CardsSDK can be imported via SPM (Swift Package Manager).
 
 - In XCode, go to: File -> Add Package Dependencies
 - In the search bar enter: `https://github.com/Wantsa/sdk-cards-ios-framework`
-- Choose a dependency rule (e.g. `Up to Next Major` with `1.0.0`
+- Choose a dependency rule (e.g. `Up to Next Major` with `1.0.0`)
 - Click `Add Package`
+
+The ModelSDK also needs to be imported for the CardsSDK to work. Follow the same steps above and enter: `https://github.com/Wantsa/sdk-model-ios-framework` in the search bar
+
