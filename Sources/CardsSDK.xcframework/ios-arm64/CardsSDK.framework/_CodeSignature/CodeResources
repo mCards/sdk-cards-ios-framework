@@ -14,23 +14,23 @@
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nS6hGDFeVqqePhcRje4m/9VAZCs=
+		cyzRRc88LFHdVV9OoxjkJbj5wP8=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/p0GxoWnP5KTH16Il/USxXG73AY=
+		xYwPOS6jVK7O7Pq5zzh1rnjv0NQ=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CVV4YhJ7NTNP4DTpLPjHgYeUOVM=
+		nVlGPr95RpfRegz+VWZqeG0D1GU=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/p0GxoWnP5KTH16Il/USxXG73AY=
+		xYwPOS6jVK7O7Pq5zzh1rnjv0NQ=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fWbhYK7pAeSRJH6WEChTovlAR6o=
+		rwzlStmCW5OiKeJIpu8TF9TYKdQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bI8Jdo0IpcBzR39AZUOlbm9xr8tYEWRyDhelMT99UsY=
+			9S/2nsWX0nnb2ghqFiahlWv2why8WgZSaqoJddZH8Xg=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dnNeeE9uigVhxJ4zXA1hLJdrvO7ghA3yAZQbFulaOg0=
+			BxgNzzC4Hi6jCSFc7Uz6qwjJcLztco/tDknkHZ90XEQ=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jwnpwu8Rb1c4L0zaA9M1Puty7rj8om4/CszQ3x+ayc8=
+			HgiOVueKDvK7T2gF7F7eTSy8yHK5stPXZVEvwZjurgk=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dnNeeE9uigVhxJ4zXA1hLJdrvO7ghA3yAZQbFulaOg0=
+			BxgNzzC4Hi6jCSFc7Uz6qwjJcLztco/tDknkHZ90XEQ=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LaYK6akpc02dOIaTlwV7CzabIPDWk3AVuf69yPC+SeM=
+			3TzbedzNiZBGQhnYXLedKfuEynVepYE7iKJh9VDsRuY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

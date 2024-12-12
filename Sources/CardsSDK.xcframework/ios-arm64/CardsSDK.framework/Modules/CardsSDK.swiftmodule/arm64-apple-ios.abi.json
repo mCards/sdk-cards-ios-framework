@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "ModelSDK",
-        "printedName": "ModelSDK",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "CardsSDK"
       },
@@ -79,7 +79,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(accessToken:debugMode:tokenRefreshCallback:)",
+            "printedName": "configure(accessToken:debugMode:tokenRefreshCallback:loggingCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -103,11 +103,25 @@
                 "name": "CSDKTokenRefreshCallback",
                 "printedName": "any CardsSDK.CSDKTokenRefreshCallback",
                 "usr": "s:8CardsSDK24CSDKTokenRefreshCallbackP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CoreSDK.LoggingCallback)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggingCallback",
+                    "printedName": "any CoreSDK.LoggingCallback",
+                    "usr": "s:7CoreSDK15LoggingCallbackP"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallbackySS_SbAA09CSDKTokenjK0_ptF",
-            "mangledName": "$s8CardsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallbackySS_SbAA09CSDKTokenjK0_ptF",
+            "usr": "s:8CardsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09CSDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
+            "mangledName": "$s8CardsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09CSDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -157,13 +171,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Card",
-                "printedName": "ModelSDK.Card",
-                "usr": "s:8ModelSDK4CardC"
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP19getCardWalletStatus4cardAA010CSDKWalletG0O05ModelB00E0C_tF",
-            "mangledName": "$s8CardsSDK0A3SdkP19getCardWalletStatus4cardAA010CSDKWalletG0O05ModelB00E0C_tF",
+            "usr": "s:8CardsSDK0A3SdkP19getCardWalletStatus4cardAA010CSDKWalletG0O04CoreB00E0C_tF",
+            "mangledName": "$s8CardsSDK0A3SdkP19getCardWalletStatus4cardAA010CSDKWalletG0O04CoreB00E0C_tF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -187,8 +201,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "Card",
-                "printedName": "ModelSDK.Card",
-                "usr": "s:8ModelSDK4CardC"
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
               },
               {
                 "kind": "TypeNominal",
@@ -230,8 +244,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP15addCardToWallet4card15userDisplayName10completiony05ModelB00E0C_SSys6ResultOyAA16CSDKWalletStatusOAA0O5ErrorOGctF",
-            "mangledName": "$s8CardsSDK0A3SdkP15addCardToWallet4card15userDisplayName10completiony05ModelB00E0C_SSys6ResultOyAA16CSDKWalletStatusOAA0O5ErrorOGctF",
+            "usr": "s:8CardsSDK0A3SdkP15addCardToWallet4card15userDisplayName10completiony04CoreB00E0C_SSys6ResultOyAA16CSDKWalletStatusOAA0O5ErrorOGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP15addCardToWallet4card15userDisplayName10completiony04CoreB00E0C_SSys6ResultOyAA16CSDKWalletStatusOAA0O5ErrorOGctF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -255,13 +269,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Card",
-                "printedName": "ModelSDK.Card",
-                "usr": "s:8ModelSDK4CardC"
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP20activateCardInWallet4cardy05ModelB00E0C_tF",
-            "mangledName": "$s8CardsSDK0A3SdkP20activateCardInWallet4cardy05ModelB00E0C_tF",
+            "usr": "s:8CardsSDK0A3SdkP20activateCardInWallet4cardy04CoreB00E0C_tF",
+            "mangledName": "$s8CardsSDK0A3SdkP20activateCardInWallet4cardy04CoreB00E0C_tF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -285,13 +299,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Card",
-                "printedName": "ModelSDK.Card",
-                "usr": "s:8ModelSDK4CardC"
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP20removeCardFromWallet4cardy05ModelB00E0C_tF",
-            "mangledName": "$s8CardsSDK0A3SdkP20removeCardFromWallet4cardy05ModelB00E0C_tF",
+            "usr": "s:8CardsSDK0A3SdkP20removeCardFromWallet4cardy04CoreB00E0C_tF",
+            "mangledName": "$s8CardsSDK0A3SdkP20removeCardFromWallet4cardy04CoreB00E0C_tF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -315,8 +329,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "Card",
-                "printedName": "ModelSDK.Card",
-                "usr": "s:8ModelSDK4CardC"
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
               },
               {
                 "kind": "TypeNominal",
@@ -327,13 +341,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "JWTs",
-                "printedName": "CardsSDK.JWTs",
-                "usr": "s:8CardsSDK4JWTsV"
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy05ModelB00E0C_So05WKWebI0CAA4JWTsVtF",
-            "mangledName": "$s8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy05ModelB00E0C_So05WKWebI0CAA4JWTsVtF",
+            "usr": "s:8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
+            "mangledName": "$s8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -521,7 +535,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<[ModelSDK.Card], any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<[CoreSDK.Card], any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -531,18 +545,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<[ModelSDK.Card], any Swift.Error>",
+                    "printedName": "Swift.Result<[CoreSDK.Card], any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[ModelSDK.Card]",
+                        "printedName": "[CoreSDK.Card]",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Card",
-                            "printedName": "ModelSDK.Card",
-                            "usr": "s:8ModelSDK4CardC"
+                            "printedName": "CoreSDK.Card",
+                            "usr": "s:7CoreSDK4CardC"
                           }
                         ],
                         "usr": "s:Sa"
@@ -560,8 +574,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP03getA010completionyys6ResultOySay05ModelB04CardCGs5Error_pGc_tF",
-            "mangledName": "$s8CardsSDK0A3SdkP03getA010completionyys6ResultOySay05ModelB04CardCGs5Error_pGc_tF",
+            "usr": "s:8CardsSDK0A3SdkP03getA010completionyys6ResultOySay04CoreB04CardCGs5Error_pGc_tF",
+            "mangledName": "$s8CardsSDK0A3SdkP03getA010completionyys6ResultOySay04CoreB04CardCGs5Error_pGc_tF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -591,7 +605,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<ModelSDK.Card, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<CoreSDK.Card, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -601,13 +615,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<ModelSDK.Card, any Swift.Error>",
+                    "printedName": "Swift.Result<CoreSDK.Card, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Card",
-                        "printedName": "ModelSDK.Card",
-                        "usr": "s:8ModelSDK4CardC"
+                        "printedName": "CoreSDK.Card",
+                        "usr": "s:7CoreSDK4CardC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -622,8 +636,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP11getCardById4uuid10completionySS_ys6ResultOy05ModelB00E0Cs5Error_pGctF",
-            "mangledName": "$s8CardsSDK0A3SdkP11getCardById4uuid10completionySS_ys6ResultOy05ModelB00E0Cs5Error_pGctF",
+            "usr": "s:8CardsSDK0A3SdkP11getCardById4uuid10completionySS_ys6ResultOy04CoreB00E0Cs5Error_pGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP11getCardById4uuid10completionySS_ys6ResultOy04CoreB00E0Cs5Error_pGctF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -653,7 +667,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<[ModelSDK.CardBalances], any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<[CoreSDK.CardBalances], any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -663,18 +677,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<[ModelSDK.CardBalances], any Swift.Error>",
+                    "printedName": "Swift.Result<[CoreSDK.CardBalances], any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[ModelSDK.CardBalances]",
+                        "printedName": "[CoreSDK.CardBalances]",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "CardBalances",
-                            "printedName": "ModelSDK.CardBalances",
-                            "usr": "s:8ModelSDK12CardBalancesC"
+                            "printedName": "CoreSDK.CardBalances",
+                            "usr": "s:7CoreSDK12CardBalancesC"
                           }
                         ],
                         "usr": "s:Sa"
@@ -692,8 +706,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK0A3SdkP15getCardBalances4uuid10completionySS_ys6ResultOySay05ModelB00eF0CGs5Error_pGctF",
-            "mangledName": "$s8CardsSDK0A3SdkP15getCardBalances4uuid10completionySS_ys6ResultOySay05ModelB00eF0CGs5Error_pGctF",
+            "usr": "s:8CardsSDK0A3SdkP15getCardBalances4uuid10completionySS_ys6ResultOySay04CoreB00eF0CGs5Error_pGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP15getCardBalances4uuid10completionySS_ys6ResultOySay04CoreB00eF0CGs5Error_pGctF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -750,13 +764,10 @@
       },
       {
         "kind": "Import",
-        "name": "NetworkSDK",
-        "printedName": "NetworkSDK",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
         "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "CardsSDK"
       },
       {
         "kind": "Import",
@@ -784,8 +795,8 @@
       },
       {
         "kind": "Import",
-        "name": "ModelSDK",
-        "printedName": "ModelSDK",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "CardsSDK"
       },
@@ -811,13 +822,20 @@
       },
       {
         "kind": "Import",
-        "name": "NetworkSDK",
-        "printedName": "NetworkSDK",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CardsSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "CardsSDK"
       },
       {
         "kind": "Import",
@@ -841,18 +859,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ModelSDK",
-        "printedName": "ModelSDK",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "CardsSDK"
       },
@@ -877,16 +885,6 @@
         "kind": "Import",
         "name": "DPSDK",
         "printedName": "DPSDK",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetworkSDK",
-        "printedName": "NetworkSDK",
         "declKind": "Import",
         "moduleName": "CardsSDK",
         "declAttributes": [
@@ -1325,6 +1323,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "CardsSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CSDKTokenRefreshCallback",
         "printedName": "CSDKTokenRefreshCallback",
@@ -1342,7 +1347,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(CardsSDK.JWTs) -> ()",
+                "printedName": "(CoreSDK.JWTs) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1352,15 +1357,15 @@
                   {
                     "kind": "TypeNominal",
                     "name": "JWTs",
-                    "printedName": "CardsSDK.JWTs",
-                    "usr": "s:8CardsSDK4JWTsV"
+                    "printedName": "CoreSDK.JWTs",
+                    "usr": "s:7CoreSDK4JWTsV"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CardsSDK24CSDKTokenRefreshCallbackP11refreshJWTs10completionyyAA0G0Vc_tF",
-            "mangledName": "$s8CardsSDK24CSDKTokenRefreshCallbackP11refreshJWTs10completionyyAA0G0Vc_tF",
+            "usr": "s:8CardsSDK24CSDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
+            "mangledName": "$s8CardsSDK24CSDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CSDKTokenRefreshCallback>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CSDKTokenRefreshCallback>",
@@ -1379,235 +1384,6 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "JWTs",
-        "printedName": "JWTs",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "accessToken",
-            "printedName": "accessToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK4JWTsV11accessTokenSSvp",
-            "mangledName": "$s8CardsSDK4JWTsV11accessTokenSSvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV11accessTokenSSvg",
-                "mangledName": "$s8CardsSDK4JWTsV11accessTokenSSvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV11accessTokenSSvs",
-                "mangledName": "$s8CardsSDK4JWTsV11accessTokenSSvs",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV11accessTokenSSvM",
-                "mangledName": "$s8CardsSDK4JWTsV11accessTokenSSvM",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "idToken",
-            "printedName": "idToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK4JWTsV7idTokenSSvp",
-            "mangledName": "$s8CardsSDK4JWTsV7idTokenSSvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV7idTokenSSvg",
-                "mangledName": "$s8CardsSDK4JWTsV7idTokenSSvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV7idTokenSSvs",
-                "mangledName": "$s8CardsSDK4JWTsV7idTokenSSvs",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK4JWTsV7idTokenSSvM",
-                "mangledName": "$s8CardsSDK4JWTsV7idTokenSSvM",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(accessToken:idToken:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "JWTs",
-                "printedName": "CardsSDK.JWTs",
-                "usr": "s:8CardsSDK4JWTsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8CardsSDK4JWTsV11accessToken02idE0ACSS_SStcfc",
-            "mangledName": "$s8CardsSDK4JWTsV11accessToken02idE0ACSS_SStcfc",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8CardsSDK4JWTsV",
-        "mangledName": "$s8CardsSDK4JWTsV",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -2055,45 +1831,11 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Helpers\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 137,
-      "length": 10,
-      "value": "\"CardsSDK\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Helpers\/Logger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 175,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
       "kind": "BooleanLiteral",
@@ -2142,27 +1884,6 @@
       "offset": 432,
       "length": 5,
       "value": "\"1.0\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Models\/JWTs.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Models\/JWTs.swift",
-      "kind": "StringLiteral",
-      "offset": 245,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Helpers\/SecurityManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 197,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
