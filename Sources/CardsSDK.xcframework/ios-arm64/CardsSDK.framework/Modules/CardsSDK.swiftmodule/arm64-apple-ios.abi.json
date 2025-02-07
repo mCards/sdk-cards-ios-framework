@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "CardsSDK",
+    "printedName": "CardsSDK",
     "children": [
       {
         "kind": "Import",
@@ -750,6 +750,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1267,6 +1283,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1384,6 +1414,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1741,6 +1787,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1830,56 +1890,72 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 155,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 21,
       "value": "\"X-Authorization-JWT\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 27,
       "value": "\"X-Authorization-AccessJWT\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 19,
       "value": "\"X-Card-Identifier\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 8,
       "value": "\"mCards\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 8,
       "value": "\"3.37.0\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-cards-ios\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 5,

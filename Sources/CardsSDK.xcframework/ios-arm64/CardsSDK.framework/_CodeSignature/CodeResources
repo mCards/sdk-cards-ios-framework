@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K5BrAUrvXYy3ZdYKwqnR+I0sjCk=
+		Xn63isxSkFOzt9hbckp3evshfS0=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cyzRRc88LFHdVV9OoxjkJbj5wP8=
+		aMvWuohKogs+SpZqKAXSbtQsDXQ=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		xYwPOS6jVK7O7Pq5zzh1rnjv0NQ=
+		c19mKcj97hmNNBbqMTRSlQ3IkSg=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		nVlGPr95RpfRegz+VWZqeG0D1GU=
+		vOEV3bd+MVfStEyQLSCT24Ya0Qk=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xYwPOS6jVK7O7Pq5zzh1rnjv0NQ=
+		c19mKcj97hmNNBbqMTRSlQ3IkSg=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rwzlStmCW5OiKeJIpu8TF9TYKdQ=
+		conOFfusOvaPOQJT+7CGdZ9Gha0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,35 +54,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9S/2nsWX0nnb2ghqFiahlWv2why8WgZSaqoJddZH8Xg=
+			9qb10ytzN2sDeKjQP4XSZeYyxLaP7iUi4BfhsPlAhEA=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxgNzzC4Hi6jCSFc7Uz6qwjJcLztco/tDknkHZ90XEQ=
+			vJyNm6tXqPlfjidZOfRN2Fbje6otq+AzSYODDj5kSVI=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgiOVueKDvK7T2gF7F7eTSy8yHK5stPXZVEvwZjurgk=
+			WCJdge+P1ONPlpo+YpRRqhRmFnPm40MXZRdHeWd++Nw=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxgNzzC4Hi6jCSFc7Uz6qwjJcLztco/tDknkHZ90XEQ=
+			vJyNm6tXqPlfjidZOfRN2Fbje6otq+AzSYODDj5kSVI=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TzbedzNiZBGQhnYXLedKfuEynVepYE7iKJh9VDsRuY=
+			ODIZCZ+2xDA8sw+otX3TWsYzqCZYtv4t+LL01qPGPkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
