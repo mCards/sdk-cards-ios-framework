@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/CardsSDK.framework/CardsSDK</key>
 		<data>
-		Ks9QI5dnXFjsMw/pGManNtlxf4s=
+		tBGd5b4x6MhUVRSk+lxZMTwUTxw=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Headers/CardsSDK.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/CardsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		PNSrpkw+qFHV0cxkJDsJ42kxTFA=
+		ByC2cbEoUYGjmsHvrwQjm87uZ5w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/CardsSDK</key>
 		<data>
-		5gF4Hl5pZvhj9gmblUOsAzIfxSQ=
+		xFI4x6GAbUNZ5VRgn2xVQ4b06sE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Headers/CardsSDK.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		VeCjO3PBPzIkY/AYCi7XZlfD3Bc=
+		Kdkd9CsmDhp3uuRqaYmzBwsm0pc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ks9QI5dnXFjsMw/pGManNtlxf4s=
+			tBGd5b4x6MhUVRSk+lxZMTwUTxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XeIH/jMq0htbkRi8vFButYSyY1sQe0a0KLY88p18S2w=
+			h0x6E8BYRvlWZacJeK5L3mCCOUs6QXjPWQKXUn02yEM=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Headers/CardsSDK.h</key>
@@ -206,22 +206,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNSrpkw+qFHV0cxkJDsJ42kxTFA=
+			ByC2cbEoUYGjmsHvrwQjm87uZ5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ds8uP+T0dw1Dl88dPNBpP1wRJwgvGErEtHtKi2FzWns=
+			s6ws1wDNUYHXdAbXwQv+IPEFCfmWAqgiyIl5C79wd0U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/CardsSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5gF4Hl5pZvhj9gmblUOsAzIfxSQ=
+			xFI4x6GAbUNZ5VRgn2xVQ4b06sE=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9aiVRk47DUMmcMZ9m9FR6u3vNyYo4JYBQPumaivb8k=
+			nq9an90GXgSU/I3965Pj4Ol67dfSvQhVuUeMu4iqq5Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Headers/CardsSDK.h</key>
@@ -360,11 +360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VeCjO3PBPzIkY/AYCi7XZlfD3Bc=
+			Kdkd9CsmDhp3uuRqaYmzBwsm0pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			N0RjQMG7s6n/akinTeuGe+6i/EL2R7+IuOfBKReBblY=
+			Vrwgk46kJOaSxRlP6Wo8ImkVCL0YW/BPz3kxsehVhik=
 			</data>
 		</dict>
 	</dict>
