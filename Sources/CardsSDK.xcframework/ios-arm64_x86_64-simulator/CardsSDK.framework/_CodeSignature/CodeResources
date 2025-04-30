@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N8kdZWcRq8jvys33VJ8G3kZkfLE=
+		9/AuIjb3fM68gxs4aR5/unoSf2g=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZCZ4KzLtUxy8XNIjCjaJqj+gVfM=
+		URca3JVOyl/sfAGjrk20/COcCOY=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KD2jw5E89D2jeDY/BZTp7NYZtYs=
+		yPC5zCgG3Kc3ihXrO2UAN8P7MW4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g4parPtpZXMu6sVmn9C5v+CAR1Gz0kz2NRiIV20L19Y=
+			cr2ghYDiDedbnOWbzhh+qXzaS6xUObBfTCwr13doHb4=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2rZjSnsw6ODle+/rUyDhUGj2lZVdT/OAvV+WWYa0694=
+			hEKAXRvKbaY1urChJsbqI6w2/Q6DJUxUSsMSfa7NnwQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
