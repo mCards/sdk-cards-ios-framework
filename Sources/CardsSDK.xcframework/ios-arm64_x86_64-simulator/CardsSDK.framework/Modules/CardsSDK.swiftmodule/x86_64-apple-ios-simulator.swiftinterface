@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CardsSDK
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CardsSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 @_exported import CardsSDK
 import CoreSDK
 import Foundation
@@ -10,20 +11,54 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct EpocCardDetails : Swift.Codable {
+  public let cvv: Swift.String
+  public let pan: Swift.String
+  public let expiration: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenerateOtpResponse : Swift.Codable {
+  public let nonTransToken: Swift.String?
+  public let jwt: Swift.String?
+  public let otpId: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol CardsSdk {
   func configure(accessToken: Swift.String, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback)
+  #if compiler(>=5.3) && $NonescapableTypes
   func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback, loggingCallback: (any CoreSDK.LoggingCallback)?)
+  #endif
   func getWalletStatus() -> Swift.Bool
   func getCardWalletStatus(card: CoreSDK.Card) -> CardsSDK.CSDKWalletStatus
+  #if compiler(>=5.3) && $NonescapableTypes
   func addCardToWallet(card: CoreSDK.Card, userDisplayName: Swift.String, completion: @escaping (Swift.Result<CardsSDK.CSDKWalletStatus, CardsSDK.CSDKWalletError>) -> Swift.Void)
+  #endif
   func activateCardInWallet(card: CoreSDK.Card)
   func removeCardFromWallet(card: CoreSDK.Card)
   func showCardDetails(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs)
+  #if compiler(>=5.3) && $NonescapableTypes
   func getPassEntries(userDisplayName: Swift.String, completion: @escaping (Swift.Result<[PassKit.PKIssuerProvisioningExtensionPassEntry], any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getPaymentPassRequest(identifier: Swift.String, configuration: PassKit.PKAddPaymentPassRequestConfiguration, certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
-  func getCards(completion: @escaping ((Swift.Result<[CoreSDK.Card], any Swift.Error>) -> Swift.Void))
-  func getCardById(uuid: Swift.String, completion: @escaping ((Swift.Result<CoreSDK.Card, any Swift.Error>) -> Swift.Void))
-  func getCardBalances(uuid: Swift.String, completion: @escaping ((Swift.Result<[CoreSDK.CardBalances], any Swift.Error>) -> Swift.Void))
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCards(completion: @escaping (Swift.Result<[CoreSDK.Card], any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCardById(uuid: Swift.String, completion: @escaping (Swift.Result<CoreSDK.Card, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCardBalances(uuid: Swift.String, completion: @escaping (Swift.Result<[CoreSDK.CardBalances], any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func generateEpocOtp(cardId: Swift.String, completion: @escaping (Swift.Result<CardsSDK.GenerateOtpResponse, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func updateCardPin(cardId: Swift.String, pin: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  #endif
   func logout()
 }
 public enum CSDKWalletError : Swift.Error {
@@ -39,9 +74,11 @@ public enum CSDKWalletError : Swift.Error {
   }
 }
 extension CardsSDK.CSDKWalletError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public protocol CSDKTokenRefreshCallback {
   func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
