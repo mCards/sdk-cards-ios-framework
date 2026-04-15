@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/CardsSDK.framework/CardsSDK</key>
 		<data>
-		rRFRMZr8Q4tH9zJQiREB07XySkM=
+		E5M4vzS4OThCf94V91JIZiQFKdw=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Headers/CardsSDK.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Info.plist</key>
 		<data>
-		7PITqTO37JRynBs8OabfVG0OBEQ=
+		V4oNAy5iaCIQBLVhkKxnfgzd9hY=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		P67O1gNT62avVY+CqDASJqV+WpY=
+		0P6iNcw6tyTZ/IMLkvM7waKT6Ds=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		53fcRCRqULJGFjpRDrV99G8Qgfc=
+		7Y1lmrqhL8kZGq/nFImFjObxWr8=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YDI6Y8yezI/jATjLTDu/fTbfQVs=
+		q6fgdtBuJ7v9nRgVofJOxOR9+ak=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		53fcRCRqULJGFjpRDrV99G8Qgfc=
+		7Y1lmrqhL8kZGq/nFImFjObxWr8=
 		</data>
 		<key>ios-arm64/CardsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/CardsSDK</key>
 		<data>
-		WMkqBmM9GWUkSa3BYgLsnXnx5yM=
+		YdqoSJgULsuyQgzkaoLGZKx4FX0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Headers/CardsSDK.h</key>
 		<data>
@@ -50,39 +50,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Info.plist</key>
 		<data>
-		OsuDHSBaIqp3lD/DZpjjM8NIq0A=
+		IqH+A29qdq5yLgNnAVKmOEgtfw8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		P67O1gNT62avVY+CqDASJqV+WpY=
+		0P6iNcw6tyTZ/IMLkvM7waKT6Ds=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cX5oOg9ge8UBN3JIvrDZ81g7luQ=
+		dd4U/6rCinZ3wpkavLKWmgQO2gA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IMI3PRaKd+rkLYMnG89RFvYy8zw=
+		QzczgEX+fvx7Eyj1bTCnARhWsgk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cX5oOg9ge8UBN3JIvrDZ81g7luQ=
+		dd4U/6rCinZ3wpkavLKWmgQO2gA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		P67O1gNT62avVY+CqDASJqV+WpY=
+		0P6iNcw6tyTZ/IMLkvM7waKT6Ds=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+aB8ohrN2kkYiO+zMekS95NUw1g=
+		ChieG8ZqPGXRLIZoFYqfegESIg0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FzWbqNfSS/7LnbLmrBESqvXY+G4=
+		X1eIRcKqzAnFldni3q1JM8KOqhU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+aB8ohrN2kkYiO+zMekS95NUw1g=
+		ChieG8ZqPGXRLIZoFYqfegESIg0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		9JBj00CbMKOCD84s6Y2OEX4MIwk=
+		PJijp95Yz9sWi6lNp/gjKkWl5hM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tuW2EnVUg8dA2UF3nGw/K3AEvpY49918t+EoKe+83tc=
+			2Gx59t7PTTel0J13w9m1CwsMdXfu1y8f4vMtGAP24CE=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Headers/CardsSDK.h</key>
@@ -117,35 +117,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TUmJbGiXtmYn43+C1zYabAlOCdsGb4AvU7fYz3Gc7qI=
+			6gr1b3fpIAlIlacz1pTSPU+s6uy+UMTaXIngnfsqYn4=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDQE3viXi6AlWB0YuxVS5c+F1Ti2NHQHbkdbZkPO2BY=
+			cxJAVg5IIC4GSbuTvasetUF6K4ZM4g56ml/0PWe4A/0=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0u6QIwNRYDfovT0al3WdLI2dBoCXFcs69ogiIlRNprs=
+			DwWJZNjTOcctNu98v3921D8tGX8PXxnGwAGX52//+Fw=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5v0V0sr0TQWsI6f7rVR3Zn3tWY37gPbZEV0GSkn1Ow=
+			08Lh9rfk5Mz7p7Wyw9Ar09Q9vq3JdTFWoutqN/uxfxM=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0u6QIwNRYDfovT0al3WdLI2dBoCXFcs69ogiIlRNprs=
+			DwWJZNjTOcctNu98v3921D8tGX8PXxnGwAGX52//+Fw=
 			</data>
 		</dict>
 		<key>ios-arm64/CardsSDK.framework/Modules/module.modulemap</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEc6OiF5l/+xlVmI1Qi5prsixo4CxO16aRLpECqC4Cw=
+			dpQXX+G29H0JoYSwQQ2CMWd0qalF2goSe34AooswG7Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Headers/CardsSDK.h</key>
@@ -180,63 +180,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GlUPg7+YtpzyoewwQbCwhSADrY5il0PPjv1Z8tSQ+vI=
+			dtmp3Af4bdFz8KDEhJtqkZixQcIvp9Ydb7ul5nWKH/w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDQE3viXi6AlWB0YuxVS5c+F1Ti2NHQHbkdbZkPO2BY=
+			cxJAVg5IIC4GSbuTvasetUF6K4ZM4g56ml/0PWe4A/0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/c9xeTz/VoqiTVIhjYsriREHc9+IUCjSOsOVTUqrIE=
+			egrXOqQdpgNNI9qC+ZuuZ9Vqh7bRwAqZtwsRzXklekA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			exrVkQtmNwFsizbuQ38XmbxiCUlnv0W4SeZEDLlFdWw=
+			qkNMf6sOZhtjJ/jhmqIeveEDOuwDxCDvvi3FqAB8F3Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/c9xeTz/VoqiTVIhjYsriREHc9+IUCjSOsOVTUqrIE=
+			egrXOqQdpgNNI9qC+ZuuZ9Vqh7bRwAqZtwsRzXklekA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDQE3viXi6AlWB0YuxVS5c+F1Ti2NHQHbkdbZkPO2BY=
+			cxJAVg5IIC4GSbuTvasetUF6K4ZM4g56ml/0PWe4A/0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v3Q9Fx6GcfDSwkf5OOewTlMByMDSB/m2s0VvqqqtWg0=
+			61aKOkqEr3yQNRnaAg5/Wq0Ho77BL+hsIZsUe/wRCl0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NM7B9Go9tTDePR3gNcgRocBo5u0/zjMcPhQt/A4v0tc=
+			RFB3bc5/uILKX/4I8ZkCzciP6zg4MKDQIKpzSyVJx4M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v3Q9Fx6GcfDSwkf5OOewTlMByMDSB/m2s0VvqqqtWg0=
+			61aKOkqEr3yQNRnaAg5/Wq0Ho77BL+hsIZsUe/wRCl0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CardsSDK.framework/Modules/module.modulemap</key>
@@ -257,7 +257,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GOyFOjTjNKO03RVCPB0t7bVZ26liiPwunjnFndVPkI8=
+			fQwlxDHWgkC5imZxdbM5wVrAT6MOwkFuN8mtKCLZ8Sc=
 			</data>
 		</dict>
 	</dict>

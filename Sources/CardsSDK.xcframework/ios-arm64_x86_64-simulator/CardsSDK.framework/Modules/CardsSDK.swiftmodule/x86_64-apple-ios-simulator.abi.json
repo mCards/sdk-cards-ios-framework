@@ -15,556 +15,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "EpocCardDetails",
-        "printedName": "EpocCardDetails",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "cvv",
-            "printedName": "cvv",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK15EpocCardDetailsV3cvvSSvp",
-            "mangledName": "$s8CardsSDK15EpocCardDetailsV3cvvSSvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK15EpocCardDetailsV3cvvSSvg",
-                "mangledName": "$s8CardsSDK15EpocCardDetailsV3cvvSSvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "pan",
-            "printedName": "pan",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK15EpocCardDetailsV3panSSvp",
-            "mangledName": "$s8CardsSDK15EpocCardDetailsV3panSSvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK15EpocCardDetailsV3panSSvg",
-                "mangledName": "$s8CardsSDK15EpocCardDetailsV3panSSvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "expiration",
-            "printedName": "expiration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK15EpocCardDetailsV10expirationSSvp",
-            "mangledName": "$s8CardsSDK15EpocCardDetailsV10expirationSSvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK15EpocCardDetailsV10expirationSSvg",
-                "mangledName": "$s8CardsSDK15EpocCardDetailsV10expirationSSvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "EpocCardDetails",
-                "printedName": "CardsSDK.EpocCardDetails",
-                "usr": "s:8CardsSDK15EpocCardDetailsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8CardsSDK15EpocCardDetailsV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8CardsSDK15EpocCardDetailsV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CardsSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8CardsSDK15EpocCardDetailsV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s8CardsSDK15EpocCardDetailsV6encode2toys7Encoder_p_tKF",
-            "moduleName": "CardsSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8CardsSDK15EpocCardDetailsV",
-        "mangledName": "$s8CardsSDK15EpocCardDetailsV",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "GenerateOtpResponse",
-        "printedName": "GenerateOtpResponse",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "nonTransToken",
-            "printedName": "nonTransToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvp",
-            "mangledName": "$s8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvg",
-                "mangledName": "$s8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "jwt",
-            "printedName": "jwt",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK19GenerateOtpResponseV3jwtSSSgvp",
-            "mangledName": "$s8CardsSDK19GenerateOtpResponseV3jwtSSSgvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK19GenerateOtpResponseV3jwtSSSgvg",
-                "mangledName": "$s8CardsSDK19GenerateOtpResponseV3jwtSSSgvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "otpId",
-            "printedName": "otpId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CardsSDK19GenerateOtpResponseV5otpIdSSSgvp",
-            "mangledName": "$s8CardsSDK19GenerateOtpResponseV5otpIdSSSgvp",
-            "moduleName": "CardsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CardsSDK19GenerateOtpResponseV5otpIdSSSgvg",
-                "mangledName": "$s8CardsSDK19GenerateOtpResponseV5otpIdSSSgvg",
-                "moduleName": "CardsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenerateOtpResponse",
-                "printedName": "CardsSDK.GenerateOtpResponse",
-                "usr": "s:8CardsSDK19GenerateOtpResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8CardsSDK19GenerateOtpResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8CardsSDK19GenerateOtpResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CardsSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8CardsSDK19GenerateOtpResponseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s8CardsSDK19GenerateOtpResponseV6encode2toys7Encoder_p_tKF",
-            "moduleName": "CardsSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8CardsSDK19GenerateOtpResponseV",
-        "mangledName": "$s8CardsSDK19GenerateOtpResponseV",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CardsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
@@ -1532,6 +982,566 @@
         "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "CardsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EpocCardDetails",
+        "printedName": "EpocCardDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cvv",
+            "printedName": "cvv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK15EpocCardDetailsV3cvvSSvp",
+            "mangledName": "$s8CardsSDK15EpocCardDetailsV3cvvSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK15EpocCardDetailsV3cvvSSvg",
+                "mangledName": "$s8CardsSDK15EpocCardDetailsV3cvvSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pan",
+            "printedName": "pan",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK15EpocCardDetailsV3panSSvp",
+            "mangledName": "$s8CardsSDK15EpocCardDetailsV3panSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK15EpocCardDetailsV3panSSvg",
+                "mangledName": "$s8CardsSDK15EpocCardDetailsV3panSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiration",
+            "printedName": "expiration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK15EpocCardDetailsV10expirationSSvp",
+            "mangledName": "$s8CardsSDK15EpocCardDetailsV10expirationSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK15EpocCardDetailsV10expirationSSvg",
+                "mangledName": "$s8CardsSDK15EpocCardDetailsV10expirationSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EpocCardDetails",
+                "printedName": "CardsSDK.EpocCardDetails",
+                "usr": "s:8CardsSDK15EpocCardDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK15EpocCardDetailsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8CardsSDK15EpocCardDetailsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK15EpocCardDetailsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8CardsSDK15EpocCardDetailsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CardsSDK15EpocCardDetailsV",
+        "mangledName": "$s8CardsSDK15EpocCardDetailsV",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GenerateOtpResponse",
+        "printedName": "GenerateOtpResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nonTransToken",
+            "printedName": "nonTransToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvp",
+            "mangledName": "$s8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvg",
+                "mangledName": "$s8CardsSDK19GenerateOtpResponseV13nonTransTokenSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jwt",
+            "printedName": "jwt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK19GenerateOtpResponseV3jwtSSSgvp",
+            "mangledName": "$s8CardsSDK19GenerateOtpResponseV3jwtSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK19GenerateOtpResponseV3jwtSSSgvg",
+                "mangledName": "$s8CardsSDK19GenerateOtpResponseV3jwtSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "otpId",
+            "printedName": "otpId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK19GenerateOtpResponseV5otpIdSSSgvp",
+            "mangledName": "$s8CardsSDK19GenerateOtpResponseV5otpIdSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK19GenerateOtpResponseV5otpIdSSSgvg",
+                "mangledName": "$s8CardsSDK19GenerateOtpResponseV5otpIdSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenerateOtpResponse",
+                "printedName": "CardsSDK.GenerateOtpResponse",
+                "usr": "s:8CardsSDK19GenerateOtpResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK19GenerateOtpResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8CardsSDK19GenerateOtpResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK19GenerateOtpResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8CardsSDK19GenerateOtpResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CardsSDK19GenerateOtpResponseV",
+        "mangledName": "$s8CardsSDK19GenerateOtpResponseV",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2600,6 +2610,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 155,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/GenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 486,
@@ -2614,6 +2631,41 @@
       "value": "\"otp_id\""
     },
     {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 17,
+      "value": "\"issuer_token_id\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 13,
+      "value": "\"token_state\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 16,
+      "value": "\"fpan_last_four\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 16,
+      "value": "\"dpan_last_four\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 17,
+      "value": "\"wallet_provider\""
+    },
+    {
       "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/PostGenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 319,
@@ -2626,13 +2678,6 @@
       "offset": 375,
       "length": 8,
       "value": "\"otp_id\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 155,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
