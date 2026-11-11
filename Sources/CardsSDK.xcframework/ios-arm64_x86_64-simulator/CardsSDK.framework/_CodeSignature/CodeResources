@@ -10,47 +10,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IqH+A29qdq5yLgNnAVKmOEgtfw8=
+		N41MlQmj/BctagXPpmqyRRQ2oHk=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0P6iNcw6tyTZ/IMLkvM7waKT6Ds=
+		Jt4rSPayocZ5BSVAoQqNmAT8nNI=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dd4U/6rCinZ3wpkavLKWmgQO2gA=
+		aNUiSvQQoKzBYf8+LQEGdrmH4lQ=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QzczgEX+fvx7Eyj1bTCnARhWsgk=
+		EcwZ4r1g6mA7trm/vkQ/hRjKiO8=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dd4U/6rCinZ3wpkavLKWmgQO2gA=
-		</data>
-		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		2QJFOvJ6mihwtrWWJ4P4P5nN4oY=
+		aNUiSvQQoKzBYf8+LQEGdrmH4lQ=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0P6iNcw6tyTZ/IMLkvM7waKT6Ds=
+		Jt4rSPayocZ5BSVAoQqNmAT8nNI=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ChieG8ZqPGXRLIZoFYqfegESIg0=
+		DNqWPt9gCCVyZOaBtSoiyfPIpBA=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		X1eIRcKqzAnFldni3q1JM8KOqhU=
+		DB83eI6nKSlbviron5ivveTyssI=
 		</data>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ChieG8ZqPGXRLIZoFYqfegESIg0=
-		</data>
-		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		QUQtuk8ff8MNlpj97U5HevTTHPM=
+		DNqWPt9gCCVyZOaBtSoiyfPIpBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,70 +66,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxJAVg5IIC4GSbuTvasetUF6K4ZM4g56ml/0PWe4A/0=
+			fgH1CI3iNEBNPU1krpY9vE8tVnCHpnMCvwIAObGjrgw=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			egrXOqQdpgNNI9qC+ZuuZ9Vqh7bRwAqZtwsRzXklekA=
+			Rgk/vUg3/keGliKdRntk3NA/l+j5ATT9MupmOtVemhc=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qkNMf6sOZhtjJ/jhmqIeveEDOuwDxCDvvi3FqAB8F3Y=
+			1SfHVuMYJ5QRwh3dddQTaa5GDWWp7jvH14sbDnS6Qb0=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			egrXOqQdpgNNI9qC+ZuuZ9Vqh7bRwAqZtwsRzXklekA=
-			</data>
-		</dict>
-		<key>Modules/CardsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pDtLbcHEe9NMXpUh+/oY7ucEx0yOSFqtzrjBOLAe3Ck=
+			Rgk/vUg3/keGliKdRntk3NA/l+j5ATT9MupmOtVemhc=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxJAVg5IIC4GSbuTvasetUF6K4ZM4g56ml/0PWe4A/0=
+			fgH1CI3iNEBNPU1krpY9vE8tVnCHpnMCvwIAObGjrgw=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			61aKOkqEr3yQNRnaAg5/Wq0Ho77BL+hsIZsUe/wRCl0=
+			hic3IbX0z/yw4O2ufm24iN0e+LSY3WUiA1PS7relc0o=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RFB3bc5/uILKX/4I8ZkCzciP6zg4MKDQIKpzSyVJx4M=
+			tVme6EDBqyRS+zop90jsihHlTSugBfSsaRorn6IAwGw=
 			</data>
 		</dict>
 		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			61aKOkqEr3yQNRnaAg5/Wq0Ho77BL+hsIZsUe/wRCl0=
-			</data>
-		</dict>
-		<key>Modules/CardsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ONy5T0AH+uGTEXUXCy7hnIdnYcE7tCFXydghN95XJtg=
+			hic3IbX0z/yw4O2ufm24iN0e+LSY3WUiA1PS7relc0o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

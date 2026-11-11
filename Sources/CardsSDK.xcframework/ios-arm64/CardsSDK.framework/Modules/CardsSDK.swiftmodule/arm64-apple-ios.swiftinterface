@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CardsSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CardsSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import CardsSDK
 import CoreSDK
 import Foundation
@@ -11,41 +11,128 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum CSDKPinAction : Swift.String, Swift.CaseIterable {
+  case setPin
+  case activateCard
+  case revealPin
+  public var completionEvent: Swift.String {
+    get
+  }
+  public static func from(completionEvent: Swift.String?) -> CardsSDK.CSDKPinAction?
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CardsSDK.CSDKPinAction]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CardsSDK.CSDKPinAction] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CSDKCardholderVerificationMethod : Swift.String, Swift.CaseIterable {
+  case biometricFace
+  case biometricFingerprint
+  case login
+  case expCvv
+  case otpCvv
+  case otp
+  case other
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CardsSDK.CSDKCardholderVerificationMethod]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CardsSDK.CSDKCardholderVerificationMethod] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol CSDKPinActionListener : AnyObject {
+  func onPinActionCompleted(_ action: CardsSDK.CSDKPinAction)
+  func onPinActionFailed(_ action: CardsSDK.CSDKPinAction, error: Swift.String?)
+}
 public protocol CardsSdk {
   func configure(accessToken: Swift.String, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback)
-  #if compiler(>=5.3) && $NonescapableTypes
   func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any CardsSDK.CSDKTokenRefreshCallback, loggingCallback: (any CoreSDK.LoggingCallback)?)
-  #endif
   func getWalletStatus() -> Swift.Bool
   func getCardWalletStatus(card: CoreSDK.Card) -> CardsSDK.CSDKWalletStatus
-  #if compiler(>=5.3) && $NonescapableTypes
+  func getCardWalletStatus(card: CoreSDK.Card, completion: @escaping (CardsSDK.CSDKWalletStatus) -> Swift.Void)
   func addCardToWallet(card: CoreSDK.Card, userDisplayName: Swift.String, completion: @escaping (Swift.Result<CardsSDK.CSDKWalletStatus, CardsSDK.CSDKWalletError>) -> Swift.Void)
-  #endif
   func activateCardInWallet(card: CoreSDK.Card)
   func removeCardFromWallet(card: CoreSDK.Card)
   func showCardDetails(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs)
-  #if compiler(>=5.3) && $NonescapableTypes
+  func showCardPinManagement(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs, listener: (any CardsSDK.CSDKPinActionListener)?)
+  func showCardPinReveal(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs, verificationMethod: CardsSDK.CSDKCardholderVerificationMethod, listener: (any CardsSDK.CSDKPinActionListener)?)
+  func showCardActivation(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs, listener: (any CardsSDK.CSDKPinActionListener)?)
   func getPassEntries(userDisplayName: Swift.String, completion: @escaping (Swift.Result<[PassKit.PKIssuerProvisioningExtensionPassEntry], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getPaymentPassRequest(identifier: Swift.String, configuration: PassKit.PKAddPaymentPassRequestConfiguration, certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCards(completion: @escaping (Swift.Result<[CoreSDK.Card], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCardById(uuid: Swift.String, completion: @escaping (Swift.Result<CoreSDK.Card, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCardBalances(uuid: Swift.String, completion: @escaping (Swift.Result<[CoreSDK.CardBalances], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  func getAIAgentSSOToken(cardId: Swift.String, completion: @escaping (Swift.Result<CardsSDK.AIAgentSSOTokenResponse, any Swift.Error>) -> Swift.Void)
+  func updateCardLifecycle(cardId: Swift.String, request: CardsSDK.CardLifecycleRequest, completion: @escaping (Swift.Result<CardsSDK.CardLifecycleResponse, any Swift.Error>) -> Swift.Void)
   func generateEpocOtp(cardId: Swift.String, completion: @escaping (Swift.Result<CardsSDK.GenerateOtpResponse, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  func getEpocCardDetails(epocOtp: Swift.String, epocJwt: Swift.String, completion: @escaping (Swift.Result<CardsSDK.EpocCardDetails, any Swift.Error>) -> Swift.Void)
   func updateCardPin(cardId: Swift.String, pin: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
   func logout()
+}
+extension CardsSDK.CardsSdk {
+  public func showCardPinManagement(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs)
+  public func showCardPinReveal(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs, listener: (any CardsSDK.CSDKPinActionListener)? = nil)
+  public func showCardActivation(card: CoreSDK.Card, webView: WebKit.WKWebView, jwts: CoreSDK.JWTs)
+}
+public struct AIAgentSSOTokenResponse : Swift.Codable, Swift.Equatable {
+  public let url: Swift.String
+  public let token: Swift.String?
+  public let expiresAt: Swift.String?
+  public init(url: Swift.String, token: Swift.String?, expiresAt: Swift.String?)
+  public static func == (a: CardsSDK.AIAgentSSOTokenResponse, b: CardsSDK.AIAgentSSOTokenResponse) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CardLifecycleAction : Swift.String, Swift.Codable, Swift.Equatable {
+  case terminate
+  case reissue
+  case replace
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CardLifecycleReason : Swift.String, Swift.Codable, Swift.Equatable {
+  case lost
+  case stolen
+  case fraud
+  case customerRequest
+  case damaged
+  case notDelivered
+  case compliance
+  case other
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CardLifecycleRequest : Swift.Codable, Swift.Equatable {
+  public let action: CardsSDK.CardLifecycleAction
+  public let reason: CardsSDK.CardLifecycleReason
+  public let notes: Swift.String?
+  public let mailPhysicalCard: Swift.Bool?
+  public init(action: CardsSDK.CardLifecycleAction, reason: CardsSDK.CardLifecycleReason, notes: Swift.String? = nil, mailPhysicalCard: Swift.Bool? = nil)
+  public static func == (a: CardsSDK.CardLifecycleRequest, b: CardsSDK.CardLifecycleRequest) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CardLifecycleResponse : Swift.Codable, Swift.Equatable {
+  public let status: Swift.String
+  public let action: CardsSDK.CardLifecycleAction
+  public let newCardUuid: Swift.String?
+  public init(status: Swift.String, action: CardsSDK.CardLifecycleAction, newCardUuid: Swift.String? = nil)
+  public static func == (a: CardsSDK.CardLifecycleResponse, b: CardsSDK.CardLifecycleResponse) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct EpocCardDetails : Swift.Codable {
   public let cvv: Swift.String
@@ -74,11 +161,9 @@ public enum CSDKWalletError : Swift.Error {
   }
 }
 extension CardsSDK.CSDKWalletError : Foundation.LocalizedError {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 public protocol CSDKTokenRefreshCallback {
   func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
@@ -100,6 +185,16 @@ public enum CSDKWalletStatus {
   public static let shared: any CardsSDK.CardsSdk
   @objc deinit
 }
+extension CardsSDK.CSDKPinAction : Swift.Equatable {}
+extension CardsSDK.CSDKPinAction : Swift.Hashable {}
+extension CardsSDK.CSDKPinAction : Swift.RawRepresentable {}
+extension CardsSDK.CSDKCardholderVerificationMethod : Swift.Equatable {}
+extension CardsSDK.CSDKCardholderVerificationMethod : Swift.Hashable {}
+extension CardsSDK.CSDKCardholderVerificationMethod : Swift.RawRepresentable {}
+extension CardsSDK.CardLifecycleAction : Swift.Hashable {}
+extension CardsSDK.CardLifecycleAction : Swift.RawRepresentable {}
+extension CardsSDK.CardLifecycleReason : Swift.Hashable {}
+extension CardsSDK.CardLifecycleReason : Swift.RawRepresentable {}
 extension CardsSDK.CSDKWalletError : Swift.Equatable {}
 extension CardsSDK.CSDKWalletError : Swift.Hashable {}
 extension CardsSDK.CSDKWalletStatus : Swift.Equatable {}

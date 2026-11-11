@@ -15,6 +15,1069 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CSDKPinAction",
+        "printedName": "CSDKPinAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "setPin",
+            "printedName": "setPin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKPinAction.Type) -> CardsSDK.CSDKPinAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKPinAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKPinAction",
+                        "printedName": "CardsSDK.CSDKPinAction",
+                        "usr": "s:8CardsSDK13CSDKPinActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK13CSDKPinActionO6setPinyA2CmF",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO6setPinyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activateCard",
+            "printedName": "activateCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKPinAction.Type) -> CardsSDK.CSDKPinAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKPinAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKPinAction",
+                        "printedName": "CardsSDK.CSDKPinAction",
+                        "usr": "s:8CardsSDK13CSDKPinActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK13CSDKPinActionO12activateCardyA2CmF",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO12activateCardyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "revealPin",
+            "printedName": "revealPin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKPinAction.Type) -> CardsSDK.CSDKPinAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKPinAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKPinAction",
+                        "printedName": "CardsSDK.CSDKPinAction",
+                        "usr": "s:8CardsSDK13CSDKPinActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK13CSDKPinActionO9revealPinyA2CmF",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO9revealPinyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionEvent",
+            "printedName": "completionEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK13CSDKPinActionO15completionEventSSvp",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO15completionEventSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK13CSDKPinActionO15completionEventSSvg",
+                "mangledName": "$s8CardsSDK13CSDKPinActionO15completionEventSSvg",
+                "moduleName": "CardsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(completionEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CardsSDK.CSDKPinAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK13CSDKPinActionO4from15completionEventACSgSSSg_tFZ",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO4from15completionEventACSgSSSg_tFZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CardsSDK.CSDKPinAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK13CSDKPinActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO8rawValueACSgSS_tcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK13CSDKPinActionO8rawValueSSvp",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO8rawValueSSvp",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK13CSDKPinActionO8rawValueSSvg",
+                "mangledName": "$s8CardsSDK13CSDKPinActionO8rawValueSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CardsSDK.CSDKPinAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinAction",
+                    "printedName": "CardsSDK.CSDKPinAction",
+                    "usr": "s:8CardsSDK13CSDKPinActionO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK13CSDKPinActionO8allCasesSayACGvpZ",
+            "mangledName": "$s8CardsSDK13CSDKPinActionO8allCasesSayACGvpZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CardsSDK.CSDKPinAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKPinAction",
+                        "printedName": "CardsSDK.CSDKPinAction",
+                        "usr": "s:8CardsSDK13CSDKPinActionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK13CSDKPinActionO8allCasesSayACGvgZ",
+                "mangledName": "$s8CardsSDK13CSDKPinActionO8allCasesSayACGvgZ",
+                "moduleName": "CardsSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8CardsSDK13CSDKPinActionO",
+        "mangledName": "$s8CardsSDK13CSDKPinActionO",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CardsSDK.CSDKPinAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKPinAction",
+                        "printedName": "CardsSDK.CSDKPinAction",
+                        "usr": "s:8CardsSDK13CSDKPinActionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CSDKCardholderVerificationMethod",
+        "printedName": "CSDKCardholderVerificationMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "biometricFace",
+            "printedName": "biometricFace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO13biometricFaceyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO13biometricFaceyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "biometricFingerprint",
+            "printedName": "biometricFingerprint",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO20biometricFingerprintyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO20biometricFingerprintyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "login",
+            "printedName": "login",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO5loginyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO5loginyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expCvv",
+            "printedName": "expCvv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO6expCvvyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO6expCvvyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "otpCvv",
+            "printedName": "otpCvv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO6otpCvvyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO6otpCvvyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "otp",
+            "printedName": "otp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO3otpyA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO3otpyA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKCardholderVerificationMethod.Type) -> CardsSDK.CSDKCardholderVerificationMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO5otheryA2CmF",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO5otheryA2CmF",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CardsSDK.CSDKCardholderVerificationMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO8rawValueSSvp",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO8rawValueSSvp",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO8rawValueSSvg",
+                "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO8rawValueSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CardsSDK.CSDKCardholderVerificationMethod]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKCardholderVerificationMethod",
+                    "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                    "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO8allCasesSayACGvpZ",
+            "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO8allCasesSayACGvpZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CardsSDK.CSDKCardholderVerificationMethod]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO8allCasesSayACGvgZ",
+                "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO8allCasesSayACGvgZ",
+                "moduleName": "CardsSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO",
+        "mangledName": "$s8CardsSDK32CSDKCardholderVerificationMethodO",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CardsSDK.CSDKCardholderVerificationMethod]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CSDKCardholderVerificationMethod",
+                        "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                        "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CSDKPinActionListener",
+        "printedName": "CSDKPinActionListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onPinActionCompleted",
+            "printedName": "onPinActionCompleted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CSDKPinAction",
+                "printedName": "CardsSDK.CSDKPinAction",
+                "usr": "s:8CardsSDK13CSDKPinActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK21CSDKPinActionListenerP05onPinD9CompletedyyAA0cD0OF",
+            "mangledName": "$s8CardsSDK21CSDKPinActionListenerP05onPinD9CompletedyyAA0cD0OF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CSDKPinActionListener>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CSDKPinActionListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPinActionFailed",
+            "printedName": "onPinActionFailed(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CSDKPinAction",
+                "printedName": "CardsSDK.CSDKPinAction",
+                "usr": "s:8CardsSDK13CSDKPinActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK21CSDKPinActionListenerP05onPinD6Failed_5erroryAA0cD0O_SSSgtF",
+            "mangledName": "$s8CardsSDK21CSDKPinActionListenerP05onPinD6Failed_5erroryAA0cD0O_SSSgtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CSDKPinActionListener>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CSDKPinActionListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8CardsSDK21CSDKPinActionListenerP",
+        "mangledName": "$s8CardsSDK21CSDKPinActionListenerP",
+        "moduleName": "CardsSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
@@ -190,6 +1253,54 @@
           },
           {
             "kind": "Function",
+            "name": "getCardWalletStatus",
+            "printedName": "getCardWalletStatus(card:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CSDKWalletStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKWalletStatus",
+                    "printedName": "CardsSDK.CSDKWalletStatus",
+                    "usr": "s:8CardsSDK16CSDKWalletStatusO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP19getCardWalletStatus4card10completiony04CoreB00E0C_yAA010CSDKWalletG0OctF",
+            "mangledName": "$s8CardsSDK0A3SdkP19getCardWalletStatus4card10completiony04CoreB00E0C_yAA010CSDKWalletG0OctF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "addCardToWallet",
             "printedName": "addCardToWallet(card:userDisplayName:completion:)",
             "children": [
@@ -348,6 +1459,180 @@
             "declKind": "Func",
             "usr": "s:8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
             "mangledName": "$s8CardsSDK0A3SdkP15showCardDetails4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardPinManagement",
+            "printedName": "showCardPinManagement(card:webView:jwts:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CardsSDK.CSDKPinActionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinActionListener",
+                    "printedName": "any CardsSDK.CSDKPinActionListener",
+                    "usr": "s:8CardsSDK21CSDKPinActionListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP21showCardPinManagement4card7webView4jwts8listenery04CoreB00E0C_So05WKWebJ0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
+            "mangledName": "$s8CardsSDK0A3SdkP21showCardPinManagement4card7webView4jwts8listenery04CoreB00E0C_So05WKWebJ0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardPinReveal",
+            "printedName": "showCardPinReveal(card:webView:jwts:verificationMethod:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CSDKCardholderVerificationMethod",
+                "printedName": "CardsSDK.CSDKCardholderVerificationMethod",
+                "usr": "s:8CardsSDK32CSDKCardholderVerificationMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CardsSDK.CSDKPinActionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinActionListener",
+                    "printedName": "any CardsSDK.CSDKPinActionListener",
+                    "usr": "s:8CardsSDK21CSDKPinActionListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP17showCardPinReveal4card7webView4jwts18verificationMethod8listenery04CoreB00E0C_So05WKWebJ0CAJ4JWTsVAA026CSDKCardholderVerificationM0OAA21CSDKPinActionListener_pSgtF",
+            "mangledName": "$s8CardsSDK0A3SdkP17showCardPinReveal4card7webView4jwts18verificationMethod8listenery04CoreB00E0C_So05WKWebJ0CAJ4JWTsVAA026CSDKCardholderVerificationM0OAA21CSDKPinActionListener_pSgtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardActivation",
+            "printedName": "showCardActivation(card:webView:jwts:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CardsSDK.CSDKPinActionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinActionListener",
+                    "printedName": "any CardsSDK.CSDKPinActionListener",
+                    "usr": "s:8CardsSDK21CSDKPinActionListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP18showCardActivation4card7webView4jwts8listenery04CoreB00E0C_So05WKWebI0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
+            "mangledName": "$s8CardsSDK0A3SdkP18showCardActivation4card7webView4jwts8listenery04CoreB00E0C_So05WKWebI0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -720,6 +2005,136 @@
           },
           {
             "kind": "Function",
+            "name": "getAIAgentSSOToken",
+            "printedName": "getAIAgentSSOToken(cardId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CardsSDK.AIAgentSSOTokenResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CardsSDK.AIAgentSSOTokenResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIAgentSSOTokenResponse",
+                        "printedName": "CardsSDK.AIAgentSSOTokenResponse",
+                        "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP18getAIAgentSSOToken6cardId10completionySS_ys6ResultOyAA0eF8ResponseVs5Error_pGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP18getAIAgentSSOToken6cardId10completionySS_ys6ResultOyAA0eF8ResponseVs5Error_pGctF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateCardLifecycle",
+            "printedName": "updateCardLifecycle(cardId:request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleRequest",
+                "printedName": "CardsSDK.CardLifecycleRequest",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CardsSDK.CardLifecycleResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CardsSDK.CardLifecycleResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleResponse",
+                        "printedName": "CardsSDK.CardLifecycleResponse",
+                        "usr": "s:8CardsSDK21CardLifecycleResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP19updateCardLifecycle6cardId7request10completionySS_AA0eF7RequestVys6ResultOyAA0eF8ResponseVs5Error_pGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP19updateCardLifecycle6cardId7request10completionySS_AA0eF7RequestVys6ResultOyAA0eF8ResponseVs5Error_pGctF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "generateEpocOtp",
             "printedName": "generateEpocOtp(cardId:completion:)",
             "children": [
@@ -770,6 +2185,74 @@
             "declKind": "Func",
             "usr": "s:8CardsSDK0A3SdkP15generateEpocOtp6cardId10completionySS_ys6ResultOyAA08GenerateF8ResponseVs5Error_pGctF",
             "mangledName": "$s8CardsSDK0A3SdkP15generateEpocOtp6cardId10completionySS_ys6ResultOyAA08GenerateF8ResponseVs5Error_pGctF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEpocCardDetails",
+            "printedName": "getEpocCardDetails(epocOtp:epocJwt:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CardsSDK.EpocCardDetails, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CardsSDK.EpocCardDetails, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EpocCardDetails",
+                        "printedName": "CardsSDK.EpocCardDetails",
+                        "usr": "s:8CardsSDK15EpocCardDetailsV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkP18getEpocCardDetails7epocOtp0H3Jwt10completionySS_SSys6ResultOyAA0efG0Vs5Error_pGctF",
+            "mangledName": "$s8CardsSDK0A3SdkP18getEpocCardDetails7epocOtp0H3Jwt10completionySS_SSys6ResultOyAA0efG0Vs5Error_pGctF",
             "moduleName": "CardsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
             "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
@@ -870,6 +2353,144 @@
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardPinManagement",
+            "printedName": "showCardPinManagement(card:webView:jwts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkPAAE21showCardPinManagement4card7webView4jwtsy04CoreB00E0C_So05WKWebJ0CAH4JWTsVtF",
+            "mangledName": "$s8CardsSDK0A3SdkPAAE21showCardPinManagement4card7webView4jwtsy04CoreB00E0C_So05WKWebJ0CAH4JWTsVtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardPinReveal",
+            "printedName": "showCardPinReveal(card:webView:jwts:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CardsSDK.CSDKPinActionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CSDKPinActionListener",
+                    "printedName": "any CardsSDK.CSDKPinActionListener",
+                    "usr": "s:8CardsSDK21CSDKPinActionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkPAAE17showCardPinReveal4card7webView4jwts8listenery04CoreB00E0C_So05WKWebJ0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
+            "mangledName": "$s8CardsSDK0A3SdkPAAE17showCardPinReveal4card7webView4jwts8listenery04CoreB00E0C_So05WKWebJ0CAI4JWTsVAA21CSDKPinActionListener_pSgtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCardActivation",
+            "printedName": "showCardActivation(card:webView:jwts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CoreSDK.Card",
+                "usr": "s:7CoreSDK4CardC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWTs",
+                "printedName": "CoreSDK.JWTs",
+                "usr": "s:7CoreSDK4JWTsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK0A3SdkPAAE18showCardActivation4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
+            "mangledName": "$s8CardsSDK0A3SdkPAAE18showCardActivation4card7webView4jwtsy04CoreB00E0C_So05WKWebI0CAH4JWTsVtF",
+            "moduleName": "CardsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CardsSDK.CardsSdk>",
+            "sugared_genericSig": "<Self where Self : CardsSDK.CardsSdk>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -991,6 +2612,1834 @@
         "moduleName": "CardsSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CardsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIAgentSSOTokenResponse",
+        "printedName": "AIAgentSSOTokenResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV3urlSSvp",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV3urlSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV3urlSSvg",
+                "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV3urlSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV5tokenSSSgvp",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV5tokenSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV5tokenSSSgvg",
+                "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV5tokenSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV9expiresAtSSSgvp",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV9expiresAtSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV9expiresAtSSSgvg",
+                "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV9expiresAtSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:token:expiresAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIAgentSSOTokenResponse",
+                "printedName": "CardsSDK.AIAgentSSOTokenResponse",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV3url5token9expiresAtACSS_SSSgAGtcfc",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV3url5token9expiresAtACSS_SSSgAGtcfc",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIAgentSSOTokenResponse",
+                "printedName": "CardsSDK.AIAgentSSOTokenResponse",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIAgentSSOTokenResponse",
+                "printedName": "CardsSDK.AIAgentSSOTokenResponse",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIAgentSSOTokenResponse",
+                "printedName": "CardsSDK.AIAgentSSOTokenResponse",
+                "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV2eeoiySbAC_ACtFZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CardsSDK23AIAgentSSOTokenResponseV",
+        "mangledName": "$s8CardsSDK23AIAgentSSOTokenResponseV",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardLifecycleAction",
+        "printedName": "CardLifecycleAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "terminate",
+            "printedName": "terminate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleAction.Type) -> CardsSDK.CardLifecycleAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleAction",
+                        "printedName": "CardsSDK.CardLifecycleAction",
+                        "usr": "s:8CardsSDK19CardLifecycleActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleActionO9terminateyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleActionO9terminateyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "reissue",
+            "printedName": "reissue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleAction.Type) -> CardsSDK.CardLifecycleAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleAction",
+                        "printedName": "CardsSDK.CardLifecycleAction",
+                        "usr": "s:8CardsSDK19CardLifecycleActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleActionO7reissueyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleActionO7reissueyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "replace",
+            "printedName": "replace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleAction.Type) -> CardsSDK.CardLifecycleAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleAction",
+                        "printedName": "CardsSDK.CardLifecycleAction",
+                        "usr": "s:8CardsSDK19CardLifecycleActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleActionO7replaceyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleActionO7replaceyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CardsSDK.CardLifecycleAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK19CardLifecycleActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8CardsSDK19CardLifecycleActionO8rawValueACSgSS_tcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK19CardLifecycleActionO8rawValueSSvp",
+            "mangledName": "$s8CardsSDK19CardLifecycleActionO8rawValueSSvp",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK19CardLifecycleActionO8rawValueSSvg",
+                "mangledName": "$s8CardsSDK19CardLifecycleActionO8rawValueSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8CardsSDK19CardLifecycleActionO",
+        "mangledName": "$s8CardsSDK19CardLifecycleActionO",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardLifecycleReason",
+        "printedName": "CardLifecycleReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lost",
+            "printedName": "lost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO4lostyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO4lostyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "stolen",
+            "printedName": "stolen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO6stolenyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO6stolenyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "fraud",
+            "printedName": "fraud",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO5fraudyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO5fraudyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "customerRequest",
+            "printedName": "customerRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO15customerRequestyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO15customerRequestyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "damaged",
+            "printedName": "damaged",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO7damagedyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO7damagedyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notDelivered",
+            "printedName": "notDelivered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO12notDeliveredyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO12notDeliveredyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "compliance",
+            "printedName": "compliance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO10complianceyA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO10complianceyA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardsSDK.CardLifecycleReason.Type) -> CardsSDK.CardLifecycleReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardsSDK.CardLifecycleReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardLifecycleReason",
+                        "printedName": "CardsSDK.CardLifecycleReason",
+                        "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO5otheryA2CmF",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO5otheryA2CmF",
+            "moduleName": "CardsSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CardsSDK.CardLifecycleReason?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO8rawValueACSgSS_tcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK19CardLifecycleReasonO8rawValueSSvp",
+            "mangledName": "$s8CardsSDK19CardLifecycleReasonO8rawValueSSvp",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK19CardLifecycleReasonO8rawValueSSvg",
+                "mangledName": "$s8CardsSDK19CardLifecycleReasonO8rawValueSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8CardsSDK19CardLifecycleReasonO",
+        "mangledName": "$s8CardsSDK19CardLifecycleReasonO",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardLifecycleRequest",
+        "printedName": "CardLifecycleRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleAction",
+                "printedName": "CardsSDK.CardLifecycleAction",
+                "usr": "s:8CardsSDK19CardLifecycleActionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV6actionAA0cD6ActionOvp",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV6actionAA0cD6ActionOvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV6actionAA0cD6ActionOvg",
+                "mangledName": "$s8CardsSDK20CardLifecycleRequestV6actionAA0cD6ActionOvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reason",
+            "printedName": "reason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleReason",
+                "printedName": "CardsSDK.CardLifecycleReason",
+                "usr": "s:8CardsSDK19CardLifecycleReasonO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV6reasonAA0cD6ReasonOvp",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV6reasonAA0cD6ReasonOvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleReason",
+                    "printedName": "CardsSDK.CardLifecycleReason",
+                    "usr": "s:8CardsSDK19CardLifecycleReasonO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV6reasonAA0cD6ReasonOvg",
+                "mangledName": "$s8CardsSDK20CardLifecycleRequestV6reasonAA0cD6ReasonOvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notes",
+            "printedName": "notes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV5notesSSSgvp",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV5notesSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV5notesSSSgvg",
+                "mangledName": "$s8CardsSDK20CardLifecycleRequestV5notesSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mailPhysicalCard",
+            "printedName": "mailPhysicalCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV012mailPhysicalC0SbSgvp",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV012mailPhysicalC0SbSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV012mailPhysicalC0SbSgvg",
+                "mangledName": "$s8CardsSDK20CardLifecycleRequestV012mailPhysicalC0SbSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(action:reason:notes:mailPhysicalCard:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleRequest",
+                "printedName": "CardsSDK.CardLifecycleRequest",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleAction",
+                "printedName": "CardsSDK.CardLifecycleAction",
+                "usr": "s:8CardsSDK19CardLifecycleActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleReason",
+                "printedName": "CardsSDK.CardLifecycleReason",
+                "usr": "s:8CardsSDK19CardLifecycleReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV6action6reason5notes012mailPhysicalC0AcA0cD6ActionO_AA0cD6ReasonOSSSgSbSgtcfc",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV6action6reason5notes012mailPhysicalC0AcA0cD6ActionO_AA0cD6ReasonOSSSgSbSgtcfc",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleRequest",
+                "printedName": "CardsSDK.CardLifecycleRequest",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleRequest",
+                "printedName": "CardsSDK.CardLifecycleRequest",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleRequest",
+                "printedName": "CardsSDK.CardLifecycleRequest",
+                "usr": "s:8CardsSDK20CardLifecycleRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK20CardLifecycleRequestV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8CardsSDK20CardLifecycleRequestV2eeoiySbAC_ACtFZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CardsSDK20CardLifecycleRequestV",
+        "mangledName": "$s8CardsSDK20CardLifecycleRequestV",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardLifecycleResponse",
+        "printedName": "CardLifecycleResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV6statusSSvp",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV6statusSSvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV6statusSSvg",
+                "mangledName": "$s8CardsSDK21CardLifecycleResponseV6statusSSvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleAction",
+                "printedName": "CardsSDK.CardLifecycleAction",
+                "usr": "s:8CardsSDK19CardLifecycleActionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV6actionAA0cD6ActionOvp",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV6actionAA0cD6ActionOvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardLifecycleAction",
+                    "printedName": "CardsSDK.CardLifecycleAction",
+                    "usr": "s:8CardsSDK19CardLifecycleActionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV6actionAA0cD6ActionOvg",
+                "mangledName": "$s8CardsSDK21CardLifecycleResponseV6actionAA0cD6ActionOvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newCardUuid",
+            "printedName": "newCardUuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV03newC4UuidSSSgvp",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV03newC4UuidSSSgvp",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV03newC4UuidSSSgvg",
+                "mangledName": "$s8CardsSDK21CardLifecycleResponseV03newC4UuidSSSgvg",
+                "moduleName": "CardsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(status:action:newCardUuid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleResponse",
+                "printedName": "CardsSDK.CardLifecycleResponse",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleAction",
+                "printedName": "CardsSDK.CardLifecycleAction",
+                "usr": "s:8CardsSDK19CardLifecycleActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV6status6action03newC4UuidACSS_AA0cD6ActionOSSSgtcfc",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV6status6action03newC4UuidACSS_AA0cD6ActionOSSSgtcfc",
+            "moduleName": "CardsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleResponse",
+                "printedName": "CardsSDK.CardLifecycleResponse",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CardsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleResponse",
+                "printedName": "CardsSDK.CardLifecycleResponse",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardLifecycleResponse",
+                "printedName": "CardsSDK.CardLifecycleResponse",
+                "usr": "s:8CardsSDK21CardLifecycleResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CardsSDK21CardLifecycleResponseV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8CardsSDK21CardLifecycleResponseV2eeoiySbAC_ACtFZ",
+            "moduleName": "CardsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CardsSDK21CardLifecycleResponseV",
+        "mangledName": "$s8CardsSDK21CardLifecycleResponseV",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1213,13 +4662,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1231,6 +4673,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1502,13 +4951,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1520,7 +4962,34 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CardsSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1973,17 +5442,17 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2008,6 +5477,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -2019,13 +5495,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LocalizedError",
-            "printedName": "LocalizedError",
-            "usr": "s:10Foundation14LocalizedErrorP",
-            "mangledName": "$s10Foundation14LocalizedErrorP"
           }
         ]
       },
@@ -2491,17 +5960,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2610,112 +6079,266 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 155,
-      "length": 4,
-      "value": "true"
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 25,
+      "value": "\"mqSetPinActionCompleted\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/GenerateOtpResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 31,
+      "value": "\"mqActivateCardActionCompleted\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 28,
+      "value": "\"mqRevealPinActionCompleted\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 16,
+      "value": "\"biometric_face\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1864,
+      "length": 23,
+      "value": "\"biometric_fingerprint\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 9,
+      "value": "\"exp_cvv\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Enums\/CSDKPinAction.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 9,
+      "value": "\"otp_cvv\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/CardsSDKImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 13619,
+      "length": 42,
+      "value": "\"https:\/\/card-ows-cert.api.fiservapps.com\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/CardsSDKImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 13705,
+      "length": 37,
+      "value": "\"https:\/\/card-ows.api.fiservapps.com\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/CardsSDKImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 13785,
+      "length": 53,
+      "value": "\"\/cardauthinfo\/cs\/fraud\/v1\/verification\/cardAuthInfo\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Helpers\/UxtPinBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 17,
+      "value": "\"MCardsPinBridge\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Helpers\/UxtPinBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 249,
+      "value": "\"window.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Helpers\/UxtPinBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 1,
+      "value": "\" = {\n  onUxtEvent: function(event, success, error) {\n    window.webkit.messageHandlers.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Helpers\/UxtPinBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 1,
+      "value": "\".postMessage({\n      event: event,\n      success: success === true,\n      error: error || null\n    });\n  }\n};\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/AIAgentSSOTokenResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/CardLifecycleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 18,
+      "value": "\"customer_request\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/CardLifecycleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 15,
+      "value": "\"not_delivered\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/CardLifecycleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 20,
+      "value": "\"mail_physical_card\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/CardLifecycleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 15,
+      "value": "\"new_card_uuid\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/EpocCardDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 5,
+      "value": "\"CV2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/EpocCardDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 12,
+      "value": "\"cardNumber\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/EpocCardDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 16,
+      "value": "\"expirationDate\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/GenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 17,
       "value": "\"non_trans_token\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/GenerateOtpResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/GenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 8,
       "value": "\"otp_id\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
       "kind": "StringLiteral",
-      "offset": 378,
-      "length": 17,
-      "value": "\"issuer_token_id\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
-      "kind": "StringLiteral",
-      "offset": 422,
-      "length": 13,
-      "value": "\"token_state\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
-      "length": 16,
-      "value": "\"fpan_last_four\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
-      "kind": "StringLiteral",
-      "offset": 509,
-      "length": 16,
-      "value": "\"dpan_last_four\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 403,
       "length": 17,
       "value": "\"wallet_provider\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/PostGenerateOtpResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 17,
+      "value": "\"issuer_token_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 13,
+      "value": "\"token_state\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 16,
+      "value": "\"dpan_last_four\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/LogTokenBody.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 16,
+      "value": "\"fpan_last_four\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/PostGenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 17,
       "value": "\"non_trans_token\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Models\/PostGenerateOtpResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Models\/PostGenerateOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 8,
       "value": "\"otp_id\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/Data+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 155,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 21,
       "value": "\"X-Authorization-JWT\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 27,
       "value": "\"X-Authorization-AccessJWT\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 19,
       "value": "\"X-Card-Identifier\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 8,
       "value": "\"mCards\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 8,
       "value": "\"3.37.0\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/CardsSDK\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/CardsSDK\/Extensions\/URLRequest+Headers.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 5,

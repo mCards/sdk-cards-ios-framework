@@ -1,0 +1,19 @@
+{
+  "version": "1.1.19",
+  "artifacts": [
+    {
+      "name": "CardsSDK",
+      "version": "1.1.19",
+      "repository": "Wantsa/sdk-cards-ios-framework",
+      "commit": "6acbbeef755ab1ab888dd038c8505e143ce15458",
+      "sourceCommit": "bdbce48c6198f4da10a2b6b8d60079ad4f12d30b"
+    },
+    {
+      "name": "CoreSDK",
+      "version": "1.4.8",
+      "repository": "Wantsa/sdk-core-ios-framework",
+      "commit": "cab26b6ee4ba357afcf691bdcd35c28ff868672d",
+      "sourceCommit": "050a2fc2cf9658074f74a9906f39df84f1891b35"
+    }
+  ]
+}
