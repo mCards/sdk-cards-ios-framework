@@ -1,0 +1,286 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CoreSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+@_exported import CoreSDK
+import Foundation
+import Network
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class CardDetails : Swift.Codable, Swift.Equatable {
+  public var createdAt: Foundation.Date?
+  public var locked: Swift.Bool
+  public var autoPay: Swift.Bool
+  public var description: CoreSDK.CardDetails.Description
+  public var imageURL: Foundation.URL?
+  public var last4: Swift.String
+  public var expiry: Swift.String
+  public var cardTextColor: Swift.String?
+  public var expiryDate: Foundation.Date?
+  public var iconImageUrl: Foundation.URL?
+  public var pointIconUrl: Foundation.URL?
+  public var mcashTitle: Swift.String?
+  public var displayMcashBalance: Swift.Bool
+  public var pointsTitle: Swift.String?
+  public var pointsConversionRate: Swift.Double
+  public var rules: [Swift.String]
+  public var title: Swift.String
+  public var website: Swift.String
+  public var isTransactionTrackingEnabled: Swift.Bool
+  public var backgroundGradient: CoreSDK.CardDetails.BackgroundGradient?
+  public var aiAgentURL: Swift.String?
+  public var mcoreIcons: [CoreSDK.MCoreIcon]?
+  public var loginImageUrl: Foundation.URL?
+  public var hasPin: Swift.Bool
+  public var requiresPin: Swift.Bool
+  public class BackgroundGradient : Swift.Codable, Swift.Equatable {
+    public var gradientStart: Swift.String
+    public var gradientMiddle: Swift.String
+    public var gradientEnd: Swift.String
+    public init(gradientStart: Swift.String = "", gradientMiddle: Swift.String = "", gradientEnd: Swift.String = "")
+    public static func == (lhs: CoreSDK.CardDetails.BackgroundGradient, rhs: CoreSDK.CardDetails.BackgroundGradient) -> Swift.Bool
+    @objc deinit
+    public func encode(to encoder: any Swift.Encoder) throws
+    required public init(from decoder: any Swift.Decoder) throws
+  }
+  public class Description : Swift.Codable, Swift.Equatable {
+    public var text: Swift.String
+    public var title: Swift.String
+    public init(text: Swift.String = "", title: Swift.String = "")
+    required public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+    public static func == (lhs: CoreSDK.CardDetails.Description, rhs: CoreSDK.CardDetails.Description) -> Swift.Bool
+    @objc deinit
+  }
+  public init(createdAt: Foundation.Date? = nil, locked: Swift.Bool = false, autoPay: Swift.Bool = false, description: CoreSDK.CardDetails.Description = Description(), imageURL: Foundation.URL? = nil, last4: Swift.String = "", expiry: Swift.String = "", expiryDate: Foundation.Date? = nil, pointsConversionRate: Swift.Double = 0.0, rules: [Swift.String] = [], title: Swift.String = "", website: Swift.String = "", iconImageUrl: Foundation.URL? = nil, mCashTitle: Swift.String? = nil, displayMcashBalance: Swift.Bool = false, pointsTitle: Swift.String? = nil, pointIconUrl: Foundation.URL? = nil, isTransactionTrackingEnabled: Swift.Bool = false, loginImageUrl: Foundation.URL? = nil, hasPin: Swift.Bool = false, requiresPin: Swift.Bool = true)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.CardDetails, rhs: CoreSDK.CardDetails) -> Swift.Bool
+  @objc deinit
+}
+public class MCoreIcon : Swift.Codable, Swift.Equatable {
+  public var uuid: Swift.String
+  public var name: Swift.String
+  public var imageURL: Swift.String?
+  public var svgPathData: Swift.String?
+  public var fillColor: Swift.String
+  public var strokeColor: Swift.String
+  public var position: Swift.Int
+  public init(uuid: Swift.String = "", name: Swift.String = "", imageURL: Swift.String? = nil, svgPathData: Swift.String? = nil, fillColor: Swift.String = "", strokeColor: Swift.String = "", position: Swift.Int = 0)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.MCoreIcon, rhs: CoreSDK.MCoreIcon) -> Swift.Bool
+  @objc deinit
+}
+public class CardBalances : Swift.Codable, Swift.Equatable {
+  public var availableBalance: Swift.Double
+  public var formattedAvailableBalance: Swift.String
+  public var heldBalance: Swift.Double
+  public var formattedHeldBalance: Swift.String
+  public var title: Swift.String
+  public var restrictionCount: Swift.Int
+  public var type: CoreSDK.BalanceType
+  public var expiryDate: Swift.String?
+  public var iconUrl: Foundation.URL?
+  public var metadata: [CoreSDK.BalanceMetadata]
+  public init(availableBalance: Swift.Double = 0.0, formattedAvailableBalance: Swift.String = "", heldBalance: Swift.Double = 0.0, formattedHeldBalance: Swift.String = "", title: Swift.String = "", restrictionCount: Swift.Int = 0, type: CoreSDK.BalanceType = .none, expiryDate: Swift.String? = nil, iconUrl: Foundation.URL? = nil, metadata: [CoreSDK.BalanceMetadata] = [])
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.CardBalances, rhs: CoreSDK.CardBalances) -> Swift.Bool
+  public static func isCash(_ type: CoreSDK.BalanceType?) -> Swift.Bool
+  public static func findBalance(of type: CoreSDK.BalanceType, in balances: [CoreSDK.CardBalances]) -> CoreSDK.CardBalances?
+  public static func calculatePrimaryBalanceDisplay(from balances: [CoreSDK.CardBalances]) -> (title: Swift.String, totalAmount: Swift.Double, iconUrl: Foundation.URL?)
+  @objc deinit
+}
+public class BalanceMetadata : Swift.Codable, Swift.Equatable {
+  public var key: Swift.String
+  public var value: Swift.String
+  public init(key: Swift.String = "", value: Swift.String = "")
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.BalanceMetadata, rhs: CoreSDK.BalanceMetadata) -> Swift.Bool
+  @objc deinit
+}
+public enum BalanceType : Swift.String, Swift.Codable {
+  case cardCampaignBalance
+  case cardPrepaidBalance
+  case cardMcashBalance
+  case fundingSourceBalance
+  case cardLocationBalance
+  case cardPointsBalance
+  case cardOfferBalance
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol LoggingCallback {
+  func log(message: Swift.String)
+  func logNonFatal(nsError: Foundation.NSError)
+}
+public enum CardIssuers : Swift.String, Swift.Codable {
+  case EML
+  case MARQETA
+  case TREASURY_PRIME
+  case FISERV_EPOC
+  case NONE
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class Card : Swift.Codable, Swift.Equatable {
+  public var balances: [CoreSDK.CardBalances]
+  public var details: CoreSDK.CardDetails?
+  public var eaid: Swift.String
+  public var isWalletEnabled: Swift.Bool
+  public var marketer: CoreSDK.Marketer?
+  public var type: Swift.String
+  public var uuid: Swift.String
+  public var status: Swift.String
+  public var cardIssuer: CoreSDK.CardIssuers
+  public var previousCardUuid: Swift.String?
+  public var isFake: Swift.Bool {
+    get
+  }
+  public var isCardPending: Swift.Bool {
+    get
+  }
+  public init(balances: [CoreSDK.CardBalances] = [], details: CoreSDK.CardDetails? = nil, eaid: Swift.String = "RZXLM0FAS", marketer: CoreSDK.Marketer? = nil, type: Swift.String = "", uuid: Swift.String = "", isWalletEnabled: Swift.Bool = false, status: Swift.String = "", cardIssuer: CoreSDK.CardIssuers = .NONE, previousCardUuid: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.Card, rhs: CoreSDK.Card) -> Swift.Bool
+  public func getPrimaryBalanceDisplay() -> (title: Swift.String, totalAmount: Swift.Double, iconUrl: Foundation.URL?)
+  public func getPrimaryBalanceTitle() -> Swift.String
+  public func getTotalCashAmount() -> Swift.Double
+  public func getPrimaryBalanceIconUrl() -> Foundation.URL?
+  @objc deinit
+}
+public enum NetworkError : Swift.Error, Foundation.LocalizedError {
+  case noInternet
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: CoreSDK.NetworkError, b: CoreSDK.NetworkError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NetworkService {
+  public static let shared: CoreSDK.NetworkService
+  public var baseURLPrefix: Swift.String {
+    get
+  }
+  public func logout()
+  public func configure(accessToken: Swift.String, tokenRefreshCallback: any CoreSDK.TokenRefreshCallback, loggingCallback: (any CoreSDK.LoggingCallback)? = nil, debugMode: Swift.Bool = false)
+  public func request<D, E>(path: Swift.String, body: E = EmptyBody(), queryParameters: [Swift.String : Swift.String]? = nil, method: CoreSDK.NSDKHTTPMethod, completion: @escaping (Swift.Result<D, any Swift.Error>) -> Swift.Void) where D : Swift.Decodable, E : Swift.Encodable
+  @objc deinit
+}
+public enum NSDKHTTPMethod : Swift.String {
+  case connect
+  case delete
+  case get
+  case head
+  case options
+  case patch
+  case post
+  case put
+  case query
+  case trace
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NetworkReachability {
+  public static let shared: CoreSDK.NetworkReachability
+  public var isConnected: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public protocol Paginationable {
+  var count: Swift.Int { get }
+  var page: Swift.Int { get }
+  var perPage: Swift.Int { get }
+  var totalCount: Swift.Int { get }
+  var badge: Swift.Int { get }
+}
+public class Pagination : CoreSDK.Paginationable, Swift.Codable, Swift.Equatable {
+  public var count: Swift.Int
+  public var page: Swift.Int
+  public var perPage: Swift.Int
+  public var totalCount: Swift.Int
+  public var badge: Swift.Int
+  public init(count: Swift.Int = 0, page: Swift.Int = 0, perPage: Swift.Int = 0, totalCount: Swift.Int = 0, badge: Swift.Int = 0)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.Pagination, rhs: CoreSDK.Pagination) -> Swift.Bool
+  public func shouldLoadMore(_ index: Swift.Int) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Marketer : Swift.Codable, Swift.Equatable {
+  public enum Status : Swift.String, Swift.Codable {
+    case inactive
+    case active
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var companyId: Swift.String
+  public var currency: Swift.String
+  public var name: Swift.String
+  public var uuid: Swift.String
+  public var status: CoreSDK.Marketer.Status?
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: CoreSDK.Marketer, rhs: CoreSDK.Marketer) -> Swift.Bool
+  @objc deinit
+}
+public struct Logger {
+  public init(prefix: Swift.String = "", debugMode: Swift.Bool = false, loggingCallback: (any CoreSDK.LoggingCallback)? = nil)
+  public func log(message: Swift.String)
+  public func logFirebase(message: Swift.String)
+  public func logFirebase(nsError: Foundation.NSError)
+}
+public protocol TokenRefreshCallback {
+  func refreshAccessToken(completion: @escaping (Swift.String) -> Swift.Void)
+}
+public struct JWTs {
+  public var accessToken: Swift.String
+  public var idToken: Swift.String
+  public init(accessToken: Swift.String = "", idToken: Swift.String = "")
+}
+public struct EmptyBody : Swift.Encodable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct EmptyResponse : Swift.Decodable {
+  public init()
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CoreSDK.BalanceType : Swift.Equatable {}
+extension CoreSDK.BalanceType : Swift.Hashable {}
+extension CoreSDK.BalanceType : Swift.RawRepresentable {}
+extension CoreSDK.CardIssuers : Swift.Equatable {}
+extension CoreSDK.CardIssuers : Swift.Hashable {}
+extension CoreSDK.CardIssuers : Swift.RawRepresentable {}
+extension CoreSDK.NetworkError : Swift.Equatable {}
+extension CoreSDK.NetworkError : Swift.Hashable {}
+extension CoreSDK.NSDKHTTPMethod : Swift.Equatable {}
+extension CoreSDK.NSDKHTTPMethod : Swift.Hashable {}
+extension CoreSDK.NSDKHTTPMethod : Swift.RawRepresentable {}
+extension CoreSDK.Marketer.Status : Swift.Equatable {}
+extension CoreSDK.Marketer.Status : Swift.Hashable {}
+extension CoreSDK.Marketer.Status : Swift.RawRepresentable {}
